@@ -131,6 +131,7 @@ public final class ABCDGuesser2 {
         System.out.printf("The relative error of the estimate is: %.2f",
                 (Math.abs(constant - finalEstimation) / constant) * 100);
         out.print(" %");
+	//Comment
 
         in.close();
         out.close();
